@@ -1,3 +1,40 @@
+body,html {
+    height: 100%;
+}
+body {
+    font-family: system-ui;
+    margin: 0;
+    display: flex;
+}
 ul {
     list-style: none;
+}
+nav li {
+    font-weight: bolder;
+}
+.sidebar {
+    height: auto;
+    width: 20vw; /* Adjust width as needed */
+    background-color: #f4f4f4;
+    padding: 1rem;
+}
+
+/* CSS styles for links in the sidebar */
+.sidebar a {
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+    color: #333;
+}
+
+/* CSS styles for active link in the sidebar */
+.sidebar a.active {
+    background-color: #ddd;
+}
+
+.components-container {
+    width: 80vw;
+    text-align: center;
+    margin: 0;
+    
 }
